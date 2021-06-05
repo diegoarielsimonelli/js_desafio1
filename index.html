@@ -15,7 +15,7 @@
        let altura=parseFloat(prompt("¿Qué altura tenés? Exprésalo en cm."));
        let peso = parseFloat(prompt("¿Cual es tu peso actual? Exprésalo en Kg."));
        alert(nombre + " tiene un peso de " + peso + " y una altura de " + altura);
-       alert("Tu peso ideal es: "+ peso/altura*altura + "Kg");
+       alert("Tu peso ideal es: "+ (peso/(altura)**2).toFixed(2) + "Kg");
     </script>
 </body>
 </html>
